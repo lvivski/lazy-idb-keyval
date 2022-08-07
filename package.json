@@ -1,0 +1,36 @@
+{
+  "name": "lazy-idb-keyval",
+  "version": "1.0.0",
+  "description": "Lazy Key-Value storage base on IndexedDB",
+  "license": "MIT",
+  "repository": "lvivski/lazy-idb-keyval",
+  "author": "Yehor Lvivski <yehor@lvivski.com>",
+  "type": "module",
+  "exports": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "index.js*",
+    "index.d.ts*"
+  ],
+  "keywords": [
+    "indexeddb",
+    "idb",
+    "keyval",
+    "key-value",
+    "storage",
+    "lazy"
+  ],
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "avoid"
+  }
+}
